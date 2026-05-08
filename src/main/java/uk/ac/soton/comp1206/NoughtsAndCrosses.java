@@ -14,8 +14,8 @@ import javafx.util.Pair;
 public class NoughtsAndCrosses extends Application {
     private int width = 3;
     private int height = 3;
-    private Button[][] buttons;
     private boolean isFirstPersonsTurn;
+    private Button[][] buttons;
     private Label statusLabel;
     private Label scoreLabel;
     private int NoWinsX;
